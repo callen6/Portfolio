@@ -66,6 +66,11 @@ section {
 	padding-top: 100px;
 }
 
+/*work styles*/
+.work a {
+	color:black;
+}
+
 /*about styles*/
 
 .about-content {
