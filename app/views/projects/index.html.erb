@@ -1,0 +1,90 @@
+<body>
+  <nav class="navigation-wrapper">
+    <h1 class='title'><a href="navigation-wrapper">Cori Allen</a></h1>
+    <div class="buttons-wrapper">
+      <ul>
+        <a href="work">
+          <li>
+           Work
+          </li>
+        </a>
+      <!--   <a href="about">
+          <li>
+          About
+         </li>
+       </a> -->
+       <a href="contact">
+          <li>
+            Contact
+          </li>
+        </a>
+        <a href="https://github.com/callen6" class="direct-link" target="_blank">
+          <li>
+            Github
+          </li>
+        </a>
+    </ul>
+  </div>
+</nav>
+
+<section class="work">
+  <div class="section-title row">
+    <h1>Work</h1>
+  </div>
+
+<% @projects.each do |project| %>
+  <div class="work-content row">
+    <div class="small-6 columns project">
+    <h3><%= project.title %></h3>
+    <div class="project-image">
+        <%= image_tag project.image %>
+      </div>
+      <span class="project-description"><%= project.title %></span>
+      <span class="project-link"><a href="<%= project.link %>">Check it out</a></span>
+    </div>
+  </div>
+<% end %>
+
+</section>
+
+
+
+
+<!-- <section class="about">
+  <div class="section-title row">
+    <h1>About</h1>
+  </div>
+  <div class="about-content row">
+    <div class="small-12 medium-4 columns">
+      <h2>example header</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sollicitudin dui sed dictum tristique. Morbi id mollis neque. Etiam facilisis neque eu ligula pretium, accumsan imperdiet velit feugiat. Aenean eu ultricies neque, vitae rutrum sapien. Integer ullamcorper mi sed porttitor porta.</p>
+    </div>
+    <div class="small-12 medium-4 columns">
+      <h2>example header</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sollicitudin dui sed dictum tristique. Morbi id mollis neque. Etiam facilisis neque eu ligula pretium, accumsan imperdiet velit feugiat. Aenean eu ultricies neque, vitae rutrum sapien. Integer ullamcorper mi sed porttitor porta.</p>
+    </div>
+    <div class="small-12 medium-4 columns">
+      <h2>example header</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sollicitudin dui sed dictum tristique. Morbi id mollis neque. Etiam facilisis neque eu ligula pretium, accumsan imperdiet velit feugiat. Aenean eu ultricies neque, vitae rutrum sapien. Integer ullamcorper mi sed porttitor porta.</p>
+    </div>
+
+  </div>
+</section> -->
+
+
+<section class="contact">
+<div class="section-title row">
+  <h1>Contact</h1>
+</div>
+<div class="contact-content row">
+  <div class="small-12 medium-4 columns">
+    <h2><a href="https://twitter.com/plainpioneer">@plainpioneer</a></h2>
+  </div>
+  <div class="small-12 medium-4 columns">
+    <a href="https://github.com/callen6"><h2>github.com/callen6</h2></a>
+  </div>
+  <div class="small-12 medium-4 columns">
+    <a href="mailto:coriallen@gmail.com"><h2>coriallen@gmail.com</h2></a>
+  </div>
+</div>
+</section>
