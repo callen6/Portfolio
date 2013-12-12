@@ -6,5 +6,5 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
-Project.create(title: "me and you tube", link: "meandyoutube.herokuapp.com", image:"http://farm8.staticflickr.com/7372/11337193575_19608b5af1_o.png")
-Project.create(title: "Ladyparts", link: "ladyparts.herokuapp.com", image:"http://farm6.staticflickr.com/5526/11337261326_d1234c3d29_o.png")
+Project.create(title: "me and you tube", link: "http://www.meandyoutube.herokuapp.com", image:"http://farm8.staticflickr.com/7372/11337193575_19608b5af1_o.png")
+Project.create(title: "Ladyparts", link: "http://www.ladyparts.herokuapp.com", image:"http://farm6.staticflickr.com/5526/11337261326_d1234c3d29_o.png")
