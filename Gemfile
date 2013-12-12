@@ -29,8 +29,6 @@ group :doc do
   gem 'sdoc', require: false
 end
 
-gem "paperclip", "~> 3.0"
-
 gem 'pg'
 
 # Use ActiveModel has_secure_password
