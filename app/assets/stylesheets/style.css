@@ -19,7 +19,7 @@ a:visited{text-decoration: none;}
 	height: 150px;
 }
 .navigation-wrapper {
-	background: black;
+	background: white;
 	margin-top: -21px;
 	position: fixed;
 	width: 100%;
@@ -27,7 +27,7 @@ a:visited{text-decoration: none;}
 }
 
 .navigation-wrapper a {
-	color: #ddd;
+	color: rgba(33,173,49,1);
 }
 
 .navigation-wrapper li {
@@ -48,11 +48,12 @@ a:visited{text-decoration: none;}
 }
 
 .navigation-wrapper li:hover {
-	background: #333;
+	background: rgba(33,173,49,1);
+	color: white;
 }
 
 .navigation-wrapper a:hover {
-	color: white;
+	color: rgba(33,173,49,0.3);
 }
 
 /*section styles*/
@@ -93,6 +94,10 @@ section {
 
 .contact a {
 	color: black;
+}
+
+.contact-content a:hover {
+	color: rgba(33,173,49,1);
 }
 
 
