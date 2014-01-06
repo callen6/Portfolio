@@ -1,10 +1,10 @@
 /*Global Styles*/
 
 /*imported fonts*/
-@import url(http://fonts.googleapis.com/css?family=Sacramento|Karla);
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans);
 
 html {
-	font-family: "Karla", sans-serif;
+	font-family: "Droid Sans", sans-serif;
 }
 /*link styles*/
 
@@ -44,7 +44,7 @@ a:visited{text-decoration: none;}
 	position: absolute;
 	text-indent: 40px;
 	padding-top: 24px;
-	font-family: "Sacramento", sans-serif;
+	font-family: "Droid Sans", sans-serif;
 }
 
 .navigation-wrapper li:hover {
