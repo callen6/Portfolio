@@ -41,7 +41,6 @@ a:visited{text-decoration: none;}
 }
 
 .navigation-wrapper .title {
-/*	float: left;*/
 	position: absolute;
 	text-indent: 40px;
 	padding-top: 24px;
@@ -70,6 +69,15 @@ section {
 .work a {
 	color:black;
 }
+
+.project-link {
+	text-align: left;
+	font-size: 25px;
+}
+
+.work-content {
+}
+
 
 /*about styles*/
 
