@@ -76,6 +76,10 @@ section {
 	font-size: 25px;
 }
 
+.project-image {
+	border: 1px solid black;
+}
+
 .work-content {
 }
 
