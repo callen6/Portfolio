@@ -13,7 +13,11 @@ a:hover{text-decoration: none;}
 a:active{text-decoration: none;}
 a:visited{text-decoration: none;}
 
-
+/*image styles*/
+img {
+	max-height: 100%;
+	max-width: 100%;
+}
 /*navigation styles*/
 .navigation-offset-fix {
 	height: 150px;
@@ -27,7 +31,7 @@ a:visited{text-decoration: none;}
 }
 
 .navigation-wrapper a {
-	color: rgba(33,173,49,1);
+	color: rgba(255,127,59,1);
 }
 
 .navigation-wrapper li {
@@ -48,12 +52,12 @@ a:visited{text-decoration: none;}
 }
 
 .navigation-wrapper li:hover {
-	background: rgba(33,173,49,1);
+	background: rgba(255,127,59,1);
 	color: white;
 }
 
 .navigation-wrapper a:hover {
-	color: rgba(33,173,49,0.3);
+	color: rgba(255,127,59,0.3);
 }
 
 /*section styles*/
@@ -101,7 +105,7 @@ section {
 }
 
 .contact-content a:hover {
-	color: rgba(33,173,49,1);
+	color: rgba(255,127,59,1);
 }
 
 

@@ -33,19 +33,17 @@
   </div>
 
     <% @projects.each do |project| %>
-   <div class="work-content row">
+  <div class="work-content row">
     <div class="small-12 columns project">
       <div class="project-link"><a href="<%= project.link %>"  target="_blank"><h3><%= project.title %></h3></a></div>
-    </div>
   </div>
   <div class="work-content row">
     <div class="small-12 columns project">
       <div class="project-image">
         <a href="<%= project.link %>" class="direct-link" target="_blank"><%= image_tag project.image %></a>
       </div>
+    </div>
   </div>
-  <br>
-  <br>
     <% end %>
 
 </section>
